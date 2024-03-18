@@ -13,7 +13,7 @@
 }
 
 body {
-    font-family: system-ui, sans-serif;
+    font-family: var(--ff);
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
