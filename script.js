@@ -64,6 +64,9 @@ function operationInstant(operator){
         case 'x2':
             input.value = currentNumber**2;
             break;
+        case '2/x':
+            input.value = Math.sqrt(currentNumber);
+            break;
         default:
             alert('AN ERROR OCCUR!');
             break;
